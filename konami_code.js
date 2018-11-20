@@ -12,7 +12,7 @@ const codes = [
 ];
 
 function init() {
-let i = 0
+let i = 0;
 document.body.addEventListener('keyDown', 
 function(e){
   const key = e.key
@@ -24,3 +24,5 @@ if (i===codes.length){
 }else{
   i=0;
 }})}
+
+
