@@ -17,7 +17,7 @@ document.body.addEventListener('keyDown',
 function(e){
   const key = e.key
   if (key===codes[i]){i++;
-}if (i===codes.length){
+if (i===codes.length){
   alert('Congrats!');
   i = 0;
 }
