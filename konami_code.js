@@ -12,17 +12,18 @@ const codes = [
 ];
 
 function init() {
-let i = 0;
-document.body.addEventListener('keyDown', 
-function(e){
-  const key = e.key
-  if (key===codes[i]){i++;
-if (i===codes.length){
-  alert('Congrats!');
-  i = 0;
-}
-}else{
-  i=0;
-}})}
+  let index = 0;
+  document.body.addEventListener('keydown',function(e) {
+  const key = e.key;
+    if (key === codes[index]) {
+      index++;
 
+      if (index === codes.length) {
+        alert("Congratulations");
+
+        index = 0;
+      }
+    } else {
+      index = 0;
+    }})}
 
